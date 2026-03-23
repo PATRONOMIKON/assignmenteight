@@ -42,11 +42,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let resultText = "";
 
     if (totalScore <= 6) {
-      resultText = "Explorer 🌍 - You love adventure!";
+      resultText = "Explorer - You love adventure!";
     } else if (totalScore <= 10) {
-      resultText = "Artist 🎨 - You are creative and expressive!";
+      resultText = "Artist - You are creative and expressive!";
     } else {
-      resultText = "Leader 🚀 - You are confident and take charge!";
+      resultText = "Leader - You are confident and take charge!";
     }
 
     document.getElementById("result-text").textContent = resultText;
